@@ -1,6 +1,9 @@
 /*CSS BY NAME*/
 h1 {
- font-family: 'Kavoon';
+ font-family: 'Kavoon',sans-serif;
+ font-style: normal;
+  font-weight: 400;
+  font-display: swap;
 }
 
 h2 {
