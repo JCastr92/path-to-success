@@ -9,8 +9,9 @@ h1 {
  text-align: center;
 }
 
-h1 > p{
+h1 > p {
 color:brown;
+font-family: 'Inter',sans-serif;
 }
 
 h2 {
