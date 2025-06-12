@@ -1,13 +1,13 @@
 /*CSS BY NAME*/
+head {
+    background-color: #484FB7;
+}
 h1 {
  font-family: 'Kavoon',sans-serif;
- font-style: normal;
-  font-weight: 400;
-  font-display: swap;
 }
 
 h2 {
- font-family: 'Kavoon';
+ font-family: 'Kavoon',sans-serif;
 }
 
 
