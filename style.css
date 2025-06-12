@@ -6,8 +6,8 @@ h1 {
  font-family: 'Kavoon',sans-serif;
 }
 
-h1 > p{
-    color: #484FB7;
+p > h1{
+    color:brown;
 }
 
 h2 {
