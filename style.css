@@ -5,19 +5,32 @@ text-align: center;
 }
 h1 {
  font-family: 'Kavoon',sans-serif;
+ font-size: 3em;
  background-color: #484FB7;
  text-align: center;
 }
 
 p {
-color:brown;
+color:#1E1E1E;
 font-family: 'Inter',sans-serif;
 }
 
 h2 {
 font-family: 'Kavoon',sans-serif;
+font-size: 2em;
 }
 
+.menu {
+  background-color: #E9BB57;
+
+}
+.menu > h2{
+  color: #1E1E1E;
+}
+a {
+  color: #484FB7;
+  background-color:#ffffff; 
+}
 
 /*IMPORTED FONTS*/
 /* cyrillic-ext */
