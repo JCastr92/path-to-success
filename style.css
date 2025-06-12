@@ -6,6 +6,10 @@ h1 {
  font-family: 'Kavoon',sans-serif;
 }
 
+h1 > p{
+    color: #484FB7;
+}
+
 h2 {
  font-family: 'Kavoon',sans-serif;
 }
