@@ -31,6 +31,11 @@ float: left;
 .services {
     background-color: #484FB7;
 }
+
+.services > p{
+    color: #1E1E1E;
+    background-color: #ffffff;
+}
 /*IMPORTED FONTS*/
 /* cyrillic-ext */
 @font-face {
@@ -184,4 +189,8 @@ float: left;
 
 h1, h2{
     font-family: 'Kavoon', sans-serif;
+}
+
+body {
+    max-width: 450px;
 }
