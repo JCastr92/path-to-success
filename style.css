@@ -1,6 +1,11 @@
 /*CSS BY JADE C*/
 
-
+.path {
+    background-color:#484FB7;
+}
+.path > p {
+    color: #ffffff;
+}
 /*IMPORTED FONTS*/
 /* cyrillic-ext */
 @font-face {
@@ -151,3 +156,7 @@
 /*CSS RESET*/
 /*ROOT VARIABLES*/
 /*GLOBAL STYLES*/
+
+h1, h2{
+    font-family: 'Kavoon';
+}
