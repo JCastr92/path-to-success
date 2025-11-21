@@ -10,6 +10,13 @@ p {
     color: #ffffff;
 }
 
+.boxes {
+    color: #ffffff;
+    padding: 2px;
+    margin: 5px;
+    text-align: center;
+}
+
 .menu {
     background-color: #E9BB57;
 }
@@ -17,12 +24,11 @@ p {
 .menu > h2 {
     color: #1E1E1E;
     font-family: 'Inter', sans-serif;
+    text-align: center;
 }
 
 .menu > p {
 color: #484FB7;
-margin: 40px 30px;
-padding: 40px 50px;
 text-align: center;
 font-weight: bold;
 background-color:#ffffff;
@@ -36,6 +42,19 @@ background-color:#ffffff;
 .services > p{
     color: #1E1E1E;
     background-color: #ffffff;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    color:#E9BB57;
+    font-size: 1.5 em;
+}
+
+h4 {
+    font-size: 1.15em;
 }
 /*IMPORTED FONTS*/
 /* cyrillic-ext */
