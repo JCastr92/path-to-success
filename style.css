@@ -19,6 +19,7 @@ p {
 
 .menu {
     background-color: #E9BB57;
+    text-align: center;
 }
 
 .menu > h2 {
@@ -27,7 +28,7 @@ p {
     text-align: center;
 }
 
-.menu > p {
+.boxes > p {
 color: #484FB7;
 text-align: center;
 font-weight: bold;
