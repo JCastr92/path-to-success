@@ -2,9 +2,34 @@
 
 .path {
     background-color:#484FB7;
+    text-align: center;
 }
 .path > p {
     color: #ffffff;
+}
+
+.menu {
+    background-color: #E9BB57;
+}
+
+.menu > h2 {
+    color: #1E1E1E;
+}
+
+.menu > p {
+color: #484FB7;
+margin: 40px 30px;
+padding: 40px 50px;
+text-align: center;
+}
+
+img {
+float: left;
+
+}
+
+.services {
+    background-color: #484FB7;
 }
 /*IMPORTED FONTS*/
 /* cyrillic-ext */
@@ -158,5 +183,5 @@
 /*GLOBAL STYLES*/
 
 h1, h2{
-    font-family: 'Kavoon';
+    font-family: 'Kavoon', sans-serif;
 }
