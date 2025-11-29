@@ -235,3 +235,8 @@ h1, h2{
 body {
     max-width: 450px;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
