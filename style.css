@@ -1,5 +1,9 @@
 /*CSS BY JADE C*/
 
+body {
+  background-color: #6B8FE7;
+}
+
 p {
     font-family: 'Inter', sans-serif;
 }
@@ -244,6 +248,7 @@ h1, h2{
 
 body {
     max-width: 450px;
+    margin: auto;
 }
 
 * {
