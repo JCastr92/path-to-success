@@ -56,9 +56,16 @@ background-color: #ffffff;
     
 }
 
-h2 {
-    font-size: 2em;
+.services > h2{
+  font-size: 2em;
+  padding: 10px 15px 5px;
+  color: #ffffff;
 }
+
+.services > h3{
+  padding: 5px 15px 10px;
+}
+
 
 h3 {
     color:#E9BB57;
