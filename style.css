@@ -90,6 +90,12 @@ h4 {
   background-color: #D9526F;
 }
 
+.why > .grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .pricing {
   background-color: #484FB7;
 }
@@ -120,6 +126,7 @@ table tbody{
   border: 2px solid #D9526F;
   border-width: 10px;
   border-radius: 30px;
+  box-shadow: 3px 3px 3px #1E1E1E;
 }
 
 footer {
