@@ -163,11 +163,13 @@ table tbody{
 .first {
   background-color: #D9526F;
   color: #ffffff;
+  padding: 10px;
 }
 
 .first > p{
   padding: 10px;
 }
+
 .first div p {
   color: #1E1E1E;
   font-weight: bold;
@@ -188,9 +190,16 @@ table tbody{
 footer {
   background-color: #484FB7;
   color: #ffffff;
-  text-align: center;
   padding: 20px;
- 
+}
+
+footer > div{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  gap: 10px;
+  margin: auto;
+  align-items: center;
 }
 /*IMPORTED FONTS*/
 /* cyrillic-ext */
