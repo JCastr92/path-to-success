@@ -98,9 +98,28 @@ h4 {
   color: #ffffff;
 }
 
+table {
+  background-color: #E9BB57;
+  margin: auto;
+}
+
+table tbody{
+  background-color: #ffffff;
+}
+
+
+
 .first {
   background-color: #D9526F;
   color: #ffffff;
+  text-align: center;
+}
+.first > div{
+  padding: 20px;
+  background-color: #ffffff;
+  border: 2px solid #D9526F;
+  border-width: 10px;
+  border-radius: 30px;
 }
 
 footer {
