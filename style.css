@@ -106,6 +106,8 @@ h4 {
 footer {
   background-color: #484FB7;
   color: #ffffff;
+  text-align: center;
+  display: inline;
 }
 /*IMPORTED FONTS*/
 /* cyrillic-ext */
