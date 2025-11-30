@@ -98,15 +98,26 @@ h4 {
 
 .pricing {
   background-color: #484FB7;
+  padding: 15px;
 }
 
 .pricing > h2{
   color: #ffffff;
 }
 
+.pricing > h3{
+  padding: 5px;
+}
+
 table {
   background-color: #E9BB57;
   margin: auto;
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
+}
+
+table th{
+  background-color: #E9BB57;
 }
 
 table tbody{
@@ -120,13 +131,21 @@ table tbody{
   color: #ffffff;
   text-align: center;
 }
+
+.first div p {
+  color: #1E1E1E;
+  font-weight: bold;
+}
+
 .first > div{
   padding: 20px;
   background-color: #ffffff;
-  border: 2px solid #D9526F;
   border-width: 10px;
-  border-radius: 30px;
+  border-radius: 15px;
   box-shadow: 3px 3px 3px #1E1E1E;
+  width: 320px;
+  height: 18px;
+  margin: auto;
 }
 
 footer {
