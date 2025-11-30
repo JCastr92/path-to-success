@@ -44,6 +44,7 @@ a {
     text-align: center;
     font-style: italic;
     font-size: 1.5em;
+    font-weight: bold;
 }
 
 .boxes ul li a{
@@ -140,13 +141,16 @@ h4 {
   padding: 15px;
 }
 
+.why > h2{
+  color: #ffffff;
+}
 
 .why > .grid {
   display: grid;
   width: 400px;
   margin: auto;
   border-radius: 2px;
-  grid-template-columns: auto auto;
+  grid-template-columns: 160px 160px;
   justify-content: center;
   padding: 10px;
   gap: 30px;
@@ -159,7 +163,8 @@ h4 {
 .grid > .container1 {
   border-radius: 10px;
   background-color: #4CA7C0;
-  width: 90px;
+  width: 120px;
+  height: 60px;
   padding: 20px;
   text-align: center;
 }
@@ -167,7 +172,8 @@ h4 {
 .grid > .container2 {
   border-radius: 10px;
   background-color: #6B8FE7;
-  width: 90px;
+  width: 120px;
+  height: 60px;
   padding: 20px;
   text-align: center;
 }
@@ -175,15 +181,19 @@ h4 {
 .grid > .container3 {
 border-radius: 10px;
 background-color: #E9BB57;
-width: 90px;
+width: 120px;
+height: 60px;
 padding: 20px;
+text-align: center;
 }
 
 .grid > .container4 {
 border-radius: 10px;
 background-color: #ffffff;
-width: 90px;
+width: 120px;
+height: 60px;
 padding: 20px;
+text-align: center;
 }
 
 .pricing {
