@@ -8,6 +8,10 @@ p {
     font-family: 'Inter', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .path {
     background-color:#484FB7;
     text-align: center;
@@ -28,6 +32,10 @@ p {
     background-color: #E9BB57;
     text-align: center;
     border: 10px solid #E9BB57;
+    display: flex;
+    padding: 10px;
+    align-content: center;
+    flex-direction: column;
 }
 
 .menu > h2 {
@@ -38,18 +46,27 @@ p {
     font-size: 1.5em;
 }
 
-.boxes > li {
-color: #484FB7;
-text-align: center;
-font-weight: bold;
-padding: 10px;
-border: 8px solid #E9BB57;
-background-color: #ffffff;
+.boxes ul li a{
+  color: #484FB7;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  border: 8px solid #E9BB57;
+  height: 40px;
+  gap: 10px;
+  justify-content: center;
 }
-
+ul {
+  list-style: none;
+}
 
 .services {
     background-color: #484FB7;
+    padding: 15px;
 }
 
 .services > p{
@@ -71,8 +88,8 @@ background-color: #ffffff;
   padding:20px;
   background-color: #ffffff;
   border: 2px solid #484FB7;
-  border-width: 10px 18px;
-  border-radius: 30px;
+  border-width: 10px;
+  border-radius: 25px;
   height: 250px;
 }
 
@@ -80,8 +97,8 @@ background-color: #ffffff;
   padding: 20px;
   background-color: #ffffff;
   border: 2px solid #484FB7;
-  border-width: 10px 18px;
-  border-radius: 30px;
+  border-width: 10px;
+  border-radius: 25px;
   height: 250px;
 }
 
@@ -89,8 +106,8 @@ background-color: #ffffff;
    padding: 20px;
   background-color: #ffffff;
   border: 2px solid #484FB7;
-  border-width: 10px 18px;
-  border-radius: 30px;
+  border-width: 10px;
+  border-radius: 25px;
   height: 250px;
 }
 
@@ -98,9 +115,13 @@ background-color: #ffffff;
   padding: 20px;
   background-color: #ffffff;
   border: 2px solid #484FB7;
-  border-width: 10px 18px;
-  border-radius: 30px;
+  border-width: 10px;
+  border-radius: 25px;
   height: 250px;
+}
+
+h2 {
+  font-weight: normal;
 }
 
 h3 {
@@ -116,8 +137,8 @@ h4 {
 
 .why {
   background-color: #D9526F;
+  padding: 15px;
 }
-
 
 
 .why > .grid {
@@ -126,16 +147,43 @@ h4 {
   margin: auto;
   border-radius: 2px;
   grid-template-columns: auto auto;
-  align-content: space-evenly;
+  justify-content: center;
   padding: 10px;
-  gap: 10px;
+  gap: 30px;
 }
 
+.grid > div{
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}
 .grid > .container1 {
   border-radius: 10px;
   background-color: #4CA7C0;
   width: 90px;
   padding: 20px;
+  text-align: center;
+}
+
+.grid > .container2 {
+  border-radius: 10px;
+  background-color: #6B8FE7;
+  width: 90px;
+  padding: 20px;
+  text-align: center;
+}
+
+.grid > .container3 {
+border-radius: 10px;
+background-color: #E9BB57;
+width: 90px;
+padding: 20px;
+}
+
+.grid > .container4 {
+border-radius: 10px;
+background-color: #ffffff;
+width: 90px;
+padding: 20px;
 }
 
 .pricing {
@@ -201,7 +249,17 @@ table tbody{
 footer {
   background-color: #484FB7;
   color: #ffffff;
-  padding: 20px;
+  padding: 40px;
+}
+
+footer a{
+  color:#ffffff;
+  text-decoration: underline;
+  font-family: 'Inter', sans-serif;
+}
+
+footer a:visited {
+  color: #ffffff;
 }
 
 footer > div{
