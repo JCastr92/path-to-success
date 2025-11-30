@@ -112,10 +112,12 @@ h4 {
 table {
   background-color: #E9BB57;
   margin: auto;
-  padding: 10px;
   font-family: 'Inter', sans-serif;
 }
 
+td, th{
+  padding: 10px;
+}
 table th{
   background-color: #E9BB57;
 }
@@ -129,7 +131,6 @@ table tbody{
 .first {
   background-color: #D9526F;
   color: #ffffff;
-  text-align: center;
 }
 
 .first div p {
@@ -146,13 +147,15 @@ table tbody{
   width: 320px;
   height: 18px;
   margin: auto;
+  text-align: center;
 }
 
 footer {
   background-color: #484FB7;
   color: #ffffff;
   text-align: center;
-  display: inline;
+  padding: 20px;
+ 
 }
 /*IMPORTED FONTS*/
 /* cyrillic-ext */
