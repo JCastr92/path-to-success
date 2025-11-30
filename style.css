@@ -133,6 +133,7 @@ h4 {
 
 .pricing > h2{
   color: #ffffff;
+  padding: 5px;
 }
 
 .pricing > h3{
@@ -163,6 +164,9 @@ table tbody{
   color: #ffffff;
 }
 
+.first > p{
+  padding: 10px;
+}
 .first div p {
   color: #1E1E1E;
   font-weight: bold;
